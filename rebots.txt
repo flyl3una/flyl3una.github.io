@@ -1,0 +1,18 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /comments/
+Allow: /categories/
+Allow: /tags/
+
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+Disallow: /google94737d52325b92fd.html
+
+Sitemap: http://www.flyl3una.cc/sitemap.xml
+Sitemap: https://www.flyl3una.cc/sitemap.xml

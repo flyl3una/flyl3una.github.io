@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/05/Python3%E5%BC%82%E6%AD%A5IO/</loc>
+    <lastmod>2018-09-12T07:22:45.231Z</lastmod>
+    <data>
+        <display>
+        <title>Python3异步IO</title>
+        <pubTime>2018-06-05T14:08:39.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>异步IO</tag>
+         
+        <tag>并发</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+  <url>
+    <loc>http://www.flyl3una.cc/categories/index.html</loc>
+    <lastmod>2018-09-12T07:06:43.561Z</lastmod>
+    <data>
+        <display>
+        <title></title>
+        <pubTime>2018-05-05T09:07:31.000Z</pubTime>
+        
+         
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/13/vim%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2018-09-12T07:06:43.559Z</lastmod>
+    <data>
+        <display>
+        <title>vim配置</title>
+        <pubTime>2018-06-13T12:13:36.000Z</pubTime>
+        
+        <tag>vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="折腾笔记" url="http://www.flyl3una.cc/categories/%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/05/python%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2018-09-12T07:06:43.558Z</lastmod>
+    <data>
+        <display>
+        <title>Python socket网络编程</title>
+        <pubTime>2018-06-05T09:12:07.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>socket</tag>
+         
+        <tag>TCP</tag>
+         
+        <tag>UDP</tag>
+         
+        <tag>网络编程</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/05/python%E6%A8%A1%E6%8B%9F%E8%AF%B7%E6%B1%82requests%E6%A8%A1%E5%9D%97/</loc>
+    <lastmod>2018-09-12T07:06:43.558Z</lastmod>
+    <data>
+        <display>
+        <title>Python模拟请求requests模块</title>
+        <pubTime>2018-06-05T07:43:18.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>requests</tag>
+         
+        <tag>chardet</tag>
+         
+        <tag>字符检测</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/08/13/python%E6%97%B6%E9%97%B4%E6%93%8D%E4%BD%9C/</loc>
+    <lastmod>2018-09-12T07:06:43.557Z</lastmod>
+    <data>
+        <display>
+        <title>Python时间操作</title>
+        <pubTime>2018-08-13T12:20:04.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>datetime</tag>
+         
+        <tag>时间</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/05/31/python%E5%A4%9A%E8%BF%9B%E7%A8%8B/</loc>
+    <lastmod>2018-09-12T07:06:43.556Z</lastmod>
+    <data>
+        <display>
+        <title>Python多进程</title>
+        <pubTime>2018-05-31T09:36:46.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>并发</tag>
+         
+        <tag>多进程</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/01/python%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
+    <lastmod>2018-09-12T07:06:43.555Z</lastmod>
+    <data>
+        <display>
+        <title>Python多线程</title>
+        <pubTime>2018-06-01T09:24:38.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>并发</tag>
+         
+        <tag>多线程</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/24/python%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2018-09-12T07:06:43.555Z</lastmod>
+    <data>
+        <display>
+        <title>python单元测试</title>
+        <pubTime>2018-06-24T06:44:50.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>单元测试</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/05/23/python3-%E9%AB%98%E7%BA%A7%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0/</loc>
+    <lastmod>2018-09-12T07:06:43.554Z</lastmod>
+    <data>
+        <display>
+        <title>Python3 高级内置函数</title>
+        <pubTime>2018-05-23T09:05:23.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>内置函数</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/08/09/python3-struct%E8%A7%A3%E6%9E%90%E4%BA%8C%E8%BF%9B%E5%88%B6/</loc>
+    <lastmod>2018-09-12T07:06:43.553Z</lastmod>
+    <data>
+        <display>
+        <title>python3 struct解析二进制</title>
+        <pubTime>2018-08-09T09:27:40.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>进制转换</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/06/python2%E5%BC%82%E6%AD%A5gevent/</loc>
+    <lastmod>2018-09-12T07:06:43.553Z</lastmod>
+    <data>
+        <display>
+        <title>Python2 Gevent</title>
+        <pubTime>2018-06-06T14:36:47.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>并发</tag>
+         
+        <tag>协程</tag>
+         
+        <tag>gevent</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/05/25/python-%E8%A3%85%E9%A5%B0%E5%99%A8/</loc>
+    <lastmod>2018-09-12T07:06:43.552Z</lastmod>
+    <data>
+        <display>
+        <title>Python 装饰器</title>
+        <pubTime>2018-05-25T07:43:00.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>装饰器</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/05/22/python-%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0/</loc>
+    <lastmod>2018-09-12T07:06:43.551Z</lastmod>
+    <data>
+        <display>
+        <title>Python3 常用内置函数</title>
+        <pubTime>2018-05-22T09:14:25.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>内置函数</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/05/18/python-%E5%8F%AF%E5%8F%98%E5%AF%B9%E8%B1%A1%E5%92%8C%E4%B8%8D%E5%8F%AF%E5%8F%98%E5%AF%B9%E8%B1%A1/</loc>
+    <lastmod>2018-09-12T07:06:43.550Z</lastmod>
+    <data>
+        <display>
+        <title>Python可变对象和不可变对象</title>
+        <pubTime>2018-05-18T14:14:30.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>可变对象</tag>
+         
+        <tag>不可变对象</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/05/13/python-yield%E7%94%9F%E6%88%90%E5%99%A8/</loc>
+    <lastmod>2018-09-12T07:06:43.549Z</lastmod>
+    <data>
+        <display>
+        <title>Python yield生成器</title>
+        <pubTime>2018-05-13T13:17:26.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>生成器</tag>
+         
+        <tag>迭代器</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/05/31/python-subprocess%E5%88%9B%E5%BB%BA%E5%AD%90%E8%BF%9B%E7%A8%8B/</loc>
+    <lastmod>2018-09-12T07:06:43.548Z</lastmod>
+    <data>
+        <display>
+        <title>Python subprocess创建子进程</title>
+        <pubTime>2018-05-31T03:25:57.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>subprocess</tag>
+         
+        <tag>子进程</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/05/14/python-yield%E5%8D%8F%E7%A8%8B/</loc>
+    <lastmod>2018-09-12T07:06:43.548Z</lastmod>
+    <data>
+        <display>
+        <title>Python 协程</title>
+        <pubTime>2018-05-14T15:19:23.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>协程</tag>
+         
+        <tag>yield</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/05/18/python-ip%E5%90%88%E6%B3%95%E6%80%A7%E6%A0%A1%E9%AA%8C/</loc>
+    <lastmod>2018-09-12T07:06:43.547Z</lastmod>
+    <data>
+        <display>
+        <title>Python判断IP地址合法性</title>
+        <pubTime>2018-05-18T09:05:48.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>ip地址校验</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/05/22/linux-nmcli%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2018-09-12T07:06:43.546Z</lastmod>
+    <data>
+        <display>
+        <title>linux nmcli网络配置</title>
+        <pubTime>2018-05-22T08:02:11.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>nmcli</tag>
+         
+        <tag>网络配置</tag>
+         
+         
+           
+             
+              <breadCrumb title="折腾笔记" url="http://www.flyl3una.cc/categories/%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/05/21/linux-sudo%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2018-09-12T07:06:43.546Z</lastmod>
+    <data>
+        <display>
+        <title>linux sudo配置权限</title>
+        <pubTime>2018-05-21T07:52:01.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>sudo</tag>
+         
+        <tag>权限</tag>
+         
+         
+           
+             
+              <breadCrumb title="折腾笔记" url="http://www.flyl3una.cc/categories/%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/05/19/centos7%E5%AE%89%E8%A3%85python3%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2018-09-12T07:06:43.545Z</lastmod>
+    <data>
+        <display>
+        <title>centos7安装python3环境</title>
+        <pubTime>2018-05-19T07:02:28.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>python3</tag>
+         
+        <tag>python环境</tag>
+         
+         
+           
+             
+              <breadCrumb title="折腾笔记" url="http://www.flyl3una.cc/categories/%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/01/SQL%E6%B3%A8%E5%85%A5%E6%B5%85%E8%B0%88/</loc>
+    <lastmod>2018-09-12T07:06:43.544Z</lastmod>
+    <data>
+        <display>
+        <title>SQL注入浅谈</title>
+        <pubTime>2018-06-01T09:26:22.000Z</pubTime>
+        
+        <tag>SQL注入</tag>
+         
+        <tag>web安全</tag>
+         
+        <tag>security</tag>
+         
+         
+           
+             
+              <breadCrumb title="信息安全" url="http://www.flyl3una.cc/categories/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/04/Python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
+    <lastmod>2018-09-12T07:06:43.544Z</lastmod>
+    <data>
+        <display>
+        <title>Python正则表达式</title>
+        <pubTime>2018-06-04T10:41:04.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>正则表达式</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/27/Python%E6%97%A5%E5%BF%97%E6%A8%A1%E5%9D%97logging/</loc>
+    <lastmod>2018-09-12T07:06:43.543Z</lastmod>
+    <data>
+        <display>
+        <title>Python日志模块logging</title>
+        <pubTime>2018-06-27T09:50:30.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>日志</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/23/Python%E5%B9%B6%E5%8F%91%E6%A1%86%E6%9E%B6tornado/</loc>
+    <lastmod>2018-09-12T07:06:43.542Z</lastmod>
+    <data>
+        <display>
+        <title>Python并发框架tornado</title>
+        <pubTime>2018-06-22T17:00:48.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>并发</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/13/Python%E5%88%9B%E5%BB%BALinux-Unix%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B/</loc>
+    <lastmod>2018-09-12T07:06:43.541Z</lastmod>
+    <data>
+        <display>
+        <title>Python创建Linux/Unix守护进程</title>
+        <pubTime>2018-06-13T06:24:47.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>python</tag>
+         
+        <tag>守护进程</tag>
+         
+        <tag>Unix</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/07/14/Python-pandas%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2018-09-12T07:06:43.540Z</lastmod>
+    <data>
+        <display>
+        <title>Python Pandas使用</title>
+        <pubTime>2018-07-14T15:00:54.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>科学计算</tag>
+         
+         
+           
+             
+              <breadCrumb title="科学计算" url="http://www.flyl3una.cc/categories/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/20/Linux%E4%B8%8Bsystemctl%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E8%A7%84%E5%88%99/</loc>
+    <lastmod>2018-09-12T07:06:43.539Z</lastmod>
+    <data>
+        <display>
+        <title>Linux下systemctl脚本编写规则</title>
+        <pubTime>2018-06-20T08:49:58.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>systemd</tag>
+         
+        <tag>systemctl</tag>
+         
+         
+           
+             
+              <breadCrumb title="折腾笔记" url="http://www.flyl3una.cc/categories/%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/08/02/Linux-crontab%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
+    <lastmod>2018-09-12T07:06:43.538Z</lastmod>
+    <data>
+        <display>
+        <title>Linux crontab定时任务</title>
+        <pubTime>2018-08-02T10:12:27.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>crontab</tag>
+         
+        <tag>crond</tag>
+         
+        <tag>定时任务</tag>
+         
+         
+           
+             
+              <breadCrumb title="折腾笔记" url="http://www.flyl3una.cc/categories/%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/08/09/Centos7-%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2018-09-12T07:06:43.538Z</lastmod>
+    <data>
+        <display>
+        <title>Centos7 时间管理</title>
+        <pubTime>2018-08-09T09:29:11.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>时间管理</tag>
+         
+         
+           
+             
+              <breadCrumb title="折腾笔记" url="http://www.flyl3una.cc/categories/%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
