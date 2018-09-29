@@ -135,7 +135,7 @@
 <meta property="og:site_name" content="L3una&#39;s Blog">
 <meta property="og:description" content="在程序执行的时候，或多或少会需要调用系统命令，而这些命令有些需要sudo权限，为了让程序有执行权限又不让执行程序的用户拥有所有命令的sudo权限。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-09-12T07:06:43.546Z">
+<meta property="og:updated_time" content="2018-09-29T02:43:25.857Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="linux sudo配置权限">
 <meta name="twitter:description" content="在程序执行的时候，或多或少会需要调用系统命令，而这些命令有些需要sudo权限，为了让程序有执行权限又不让执行程序的用户拥有所有命令的sudo权限。">
@@ -426,8 +426,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-12T15:06:43+08:00">
-                2018-09-12
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-29T10:43:25+08:00">
+                2018-09-29
               </time>
             
           </span>
@@ -512,7 +512,10 @@
         <p>在程序执行的时候，或多或少会需要调用系统命令，而这些命令有些需要sudo权限，为了让程序有执行权限又不让执行程序的用户拥有所有命令的sudo权限。</p>
 <a id="more"></a>
 <p>例如给admin用户关机权限</p>
-<h1 id="将配置加入etcsudoers"><a href="#将配置加入-etc-sudoers" class="headerlink" title="将配置加入/etc/sudoers"></a>将配置加入/etc/sudoers</h1><p>在<code>/etc/sudoers</code>文件末尾添加<code>includedir /your/sudoers.d/</code>，然后在/your/sudoers.d/目录下创建权限配置文件</p>
+<h1 id="将配置加入etcsudoers"><a href="#将配置加入-etc-sudoers" class="headerlink" title="将配置加入/etc/sudoers"></a>将配置加入/etc/sudoers</h1><p>在<code>/etc/sudoers</code>文件末尾添加<code>#includedir /your/sudoers.d/</code>，然后在/your/sudoers.d/目录下创建权限配置文件</p>
+<blockquote>
+<p>注意，#includer的#不是注释</p>
+</blockquote>
 <p>使用visudo -f power.sudoer.conf</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">admin ALL=(:power) NOPASSWD: /usr/bin/sudo</span><br><span class="line"><span class="meta">%</span><span class="bash">power ALL=(root) NOPASSWD: /usr/sbin/shutdown -h now</span></span><br><span class="line"><span class="meta">%</span><span class="bash">power ALL=(root) NOPASSWD: /usr/sbin/shutdown -r now</span></span><br></pre></td></tr></table></figure>
 <p>使用visudo命令编辑文件保存退出时会检测命令格式。</p>
@@ -542,7 +545,7 @@
 <p>上面配置可以让<code>m_network</code>组里的<code>sysadm</code>用户拥有<code>/usr/bin/sudo</code>执行权限且不要密码，让<code>m_network</code>组的所有用户可以执行<code>/usr/bin/nmcli</code>和<code>sudoedit /etc/resolv.conf</code>命令。
 <code>SETENV: /usr/bin/sudoedit</code>用来编辑器</p>
 <ol start="2">
-<li>让<code>m_systemctl</code>组内<code>sysadm</code>用户可以执行<code>systemctl</code>重启<code>nginx</code>和<code>php-fpm</code>服务</li>
+<li>让<code>m_systemctl</code>组内用户可以以root身份免密执行<code>systemctl</code>重启<code>nginx</code>和<code>php-fpm</code>服务</li>
 </ol>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">sysadm ALL=(:m_systemctl) NOPASSWD: /usr/bin/sudo</span><br><span class="line">nginx  ALL=(:m_systemctl) NOPASSWD: /usr/bin/sudo</span><br><span class="line">	</span><br><span class="line"><span class="meta">%</span><span class="bash">m_systemctl ALL=(root) NOPASSWD: /usr/bin/systemctl restart nginx.service</span></span><br><span class="line"><span class="meta">%</span><span class="bash">m_systemctl ALL=(root) NOPASSWD: /usr/bin/systemctl start nginx.service</span></span><br><span class="line"><span class="meta">%</span><span class="bash">m_systemctl ALL=(root) NOPASSWD: /usr/bin/systemctl stop nginx.service</span></span><br><span class="line"></span><br><span class="line"><span class="meta">%</span><span class="bash">m_systemctl ALL=(root) NOPASSWD: /usr/bin/systemctl restart php-fpm.service</span></span><br><span class="line"><span class="meta">%</span><span class="bash">m_systemctl ALL=(root) NOPASSWD: /usr/bin/systemctl start php-fpm.servic</span></span><br><span class="line"><span class="meta">%</span><span class="bash">m_systemctl ALL=(root) NOPASSWD: /usr/bin/systemctl stop php-fpm.servic</span></span><br></pre></td></tr></table></figure>
 <p>直接使用sysadm用户执行命令
