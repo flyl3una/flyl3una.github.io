@@ -4,14 +4,16 @@
 
     
   <url>
-    <loc>http://www.flyl3una.cc/2018/10/31/%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F/</loc>
-    <lastmod>2018-10-31T03:36:48.570Z</lastmod>
+    <loc>http://www.flyl3una.cc/2018/10/31/Python-IO%E6%93%8D%E4%BD%9C/</loc>
+    <lastmod>2018-10-31T03:40:21.527Z</lastmod>
     <data>
         <display>
-        <title>日期时间格式</title>
-        <pubTime>2018-10-31T02:35:07.000Z</pubTime>
+        <title>Python IO操作</title>
+        <pubTime>2018-10-31T03:34:47.000Z</pubTime>
         
-        <tag>时间</tag>
+        <tag>python</tag>
+         
+        <tag>IO</tag>
          
          
            
@@ -24,16 +26,14 @@
 
     
   <url>
-    <loc>http://www.flyl3una.cc/2018/10/31/Python-IO%E6%93%8D%E4%BD%9C/</loc>
-    <lastmod>2018-10-31T03:36:32.365Z</lastmod>
+    <loc>http://www.flyl3una.cc/2018/10/31/%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F/</loc>
+    <lastmod>2018-10-31T03:36:48.570Z</lastmod>
     <data>
         <display>
-        <title>Python IO操作</title>
-        <pubTime>2018-10-31T03:34:47.000Z</pubTime>
+        <title>日期时间格式</title>
+        <pubTime>2018-10-31T02:35:07.000Z</pubTime>
         
-        <tag>python</tag>
-         
-        <tag>IO</tag>
+        <tag>时间</tag>
          
          
            
@@ -131,6 +131,32 @@
 
     
   <url>
+    <loc>http://www.flyl3una.cc/2018/06/05/python%E6%A8%A1%E6%8B%9F%E8%AF%B7%E6%B1%82requests%E6%A8%A1%E5%9D%97/</loc>
+    <lastmod>2018-09-12T07:06:43.558Z</lastmod>
+    <data>
+        <display>
+        <title>Python模拟请求requests模块</title>
+        <pubTime>2018-06-05T07:43:18.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>requests</tag>
+         
+        <tag>chardet</tag>
+         
+        <tag>字符检测</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.flyl3una.cc/2018/06/05/python%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2018-09-12T07:06:43.558Z</lastmod>
     <data>
@@ -147,32 +173,6 @@
         <tag>UDP</tag>
          
         <tag>网络编程</tag>
-         
-         
-           
-             
-              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.flyl3una.cc/2018/06/05/python%E6%A8%A1%E6%8B%9F%E8%AF%B7%E6%B1%82requests%E6%A8%A1%E5%9D%97/</loc>
-    <lastmod>2018-09-12T07:06:43.558Z</lastmod>
-    <data>
-        <display>
-        <title>Python模拟请求requests模块</title>
-        <pubTime>2018-06-05T07:43:18.000Z</pubTime>
-        
-        <tag>python</tag>
-         
-        <tag>requests</tag>
-         
-        <tag>chardet</tag>
-         
-        <tag>字符检测</tag>
          
          
            

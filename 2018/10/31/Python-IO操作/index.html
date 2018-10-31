@@ -135,7 +135,7 @@
 <meta property="og:site_name" content="L3una&#39;s Blog">
 <meta property="og:description" content="IO在计算机中指Input/Output，即输入输出。程序运行时数据在内存中，设计到数据交换，就需要使用IO，通常是磁盘，网络，串口等需要数据交换。 操作IO的能力都是由操作系统提供的，不通的变成语言回把操作系统提供的底层库封装成对应语言的库供对应语言的使用。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-31T03:36:32.365Z">
+<meta property="og:updated_time" content="2018-10-31T03:40:21.527Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python IO操作">
 <meta name="twitter:description" content="IO在计算机中指Input/Output，即输入输出。程序运行时数据在内存中，设计到数据交换，就需要使用IO，通常是磁盘，网络，串口等需要数据交换。 操作IO的能力都是由操作系统提供的，不通的变成语言回把操作系统提供的底层库封装成对应语言的库供对应语言的使用。">
@@ -426,7 +426,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-31T11:36:32+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-10-31T11:40:21+08:00">
                 2018-10-31
               </time>
             
@@ -563,7 +563,7 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">with</span> open(file, <span class="string">'r'</span>) <span class="keyword">as</span> fp:</span><br><span class="line">    text = fp.read(<span class="number">1024</span>)</span><br><span class="line">    <span class="keyword">while</span> text:</span><br><span class="line">    	text.split(<span class="string">'|'</span>)</span><br><span class="line">        text = fp.read(<span class="number">1024</span>)</span><br></pre></td></tr></table></figure>
 <p>该方法每次读取一定大小的数据，不占用内存，速度一般。</p>
 <ol start="4">
-<li>使迭代</li>
+<li>使用迭代</li>
 </ol>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">with</span> open(file) <span class="keyword">as</span> fp:</span><br><span class="line">	<span class="keyword">for</span> line <span class="keyword">in</span> fp:</span><br><span class="line">		line.split(<span class="string">'|'</span>)</span><br></pre></td></tr></table></figure>
 <p>该方法产生一个文件迭代器，自动缓冲IO和内存管理。不必担心打开大文件导致内存不够。速度快。</p>
