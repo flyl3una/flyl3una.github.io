@@ -5,14 +5,41 @@
     
   <url>
     <loc>http://www.flyl3una.cc/2018/10/31/%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F/</loc>
-    <lastmod>2018-10-31T02:36:13.568Z</lastmod>
+    <lastmod>2018-10-31T03:36:48.570Z</lastmod>
     <data>
         <display>
         <title>日期时间格式</title>
         <pubTime>2018-10-31T02:35:07.000Z</pubTime>
         
+        <tag>时间</tag>
+         
          
            
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/10/31/Python-IO%E6%93%8D%E4%BD%9C/</loc>
+    <lastmod>2018-10-31T03:36:32.365Z</lastmod>
+    <data>
+        <display>
+        <title>Python IO操作</title>
+        <pubTime>2018-10-31T03:34:47.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>IO</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
         </display>
     </data>
     </url>
@@ -104,32 +131,6 @@
 
     
   <url>
-    <loc>http://www.flyl3una.cc/2018/06/05/python%E6%A8%A1%E6%8B%9F%E8%AF%B7%E6%B1%82requests%E6%A8%A1%E5%9D%97/</loc>
-    <lastmod>2018-09-12T07:06:43.558Z</lastmod>
-    <data>
-        <display>
-        <title>Python模拟请求requests模块</title>
-        <pubTime>2018-06-05T07:43:18.000Z</pubTime>
-        
-        <tag>python</tag>
-         
-        <tag>requests</tag>
-         
-        <tag>chardet</tag>
-         
-        <tag>字符检测</tag>
-         
-         
-           
-             
-              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.flyl3una.cc/2018/06/05/python%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2018-09-12T07:06:43.558Z</lastmod>
     <data>
@@ -146,6 +147,32 @@
         <tag>UDP</tag>
          
         <tag>网络编程</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/05/python%E6%A8%A1%E6%8B%9F%E8%AF%B7%E6%B1%82requests%E6%A8%A1%E5%9D%97/</loc>
+    <lastmod>2018-09-12T07:06:43.558Z</lastmod>
+    <data>
+        <display>
+        <title>Python模拟请求requests模块</title>
+        <pubTime>2018-06-05T07:43:18.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>requests</tag>
+         
+        <tag>chardet</tag>
+         
+        <tag>字符检测</tag>
          
          
            
@@ -206,28 +233,6 @@
 
     
   <url>
-    <loc>http://www.flyl3una.cc/2018/06/24/python%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2018-09-12T07:06:43.555Z</lastmod>
-    <data>
-        <display>
-        <title>python单元测试</title>
-        <pubTime>2018-06-24T06:44:50.000Z</pubTime>
-        
-        <tag>python</tag>
-         
-        <tag>单元测试</tag>
-         
-         
-           
-             
-              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.flyl3una.cc/2018/06/01/python%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
     <lastmod>2018-09-12T07:06:43.555Z</lastmod>
     <data>
@@ -240,6 +245,28 @@
         <tag>并发</tag>
          
         <tag>多线程</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.flyl3una.cc/2018/06/24/python%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2018-09-12T07:06:43.555Z</lastmod>
+    <data>
+        <display>
+        <title>python单元测试</title>
+        <pubTime>2018-06-24T06:44:50.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>单元测试</tag>
          
          
            
@@ -274,6 +301,28 @@
 
     
   <url>
+    <loc>http://www.flyl3una.cc/2018/08/09/python3-struct%E8%A7%A3%E6%9E%90%E4%BA%8C%E8%BF%9B%E5%88%B6/</loc>
+    <lastmod>2018-09-12T07:06:43.553Z</lastmod>
+    <data>
+        <display>
+        <title>python3 struct解析二进制</title>
+        <pubTime>2018-08-09T09:27:40.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>进制转换</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.flyl3una.cc/2018/06/06/python2%E5%BC%82%E6%AD%A5gevent/</loc>
     <lastmod>2018-09-12T07:06:43.553Z</lastmod>
     <data>
@@ -288,28 +337,6 @@
         <tag>协程</tag>
          
         <tag>gevent</tag>
-         
-         
-           
-             
-              <breadCrumb title="编程基础" url="http://www.flyl3una.cc/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.flyl3una.cc/2018/08/09/python3-struct%E8%A7%A3%E6%9E%90%E4%BA%8C%E8%BF%9B%E5%88%B6/</loc>
-    <lastmod>2018-09-12T07:06:43.553Z</lastmod>
-    <data>
-        <display>
-        <title>python3 struct解析二进制</title>
-        <pubTime>2018-08-09T09:27:40.000Z</pubTime>
-        
-        <tag>python</tag>
-         
-        <tag>进制转换</tag>
          
          
            
@@ -677,11 +704,11 @@
         <title>Linux下systemctl脚本编写规则</title>
         <pubTime>2018-06-20T08:49:58.000Z</pubTime>
         
+        <tag>Linux</tag>
+         
         <tag>systemd</tag>
          
         <tag>systemctl</tag>
-         
-        <tag>Linux</tag>
          
          
            
