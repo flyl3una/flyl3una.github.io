@@ -517,7 +517,7 @@
 </ol>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> asyncio</span><br><span class="line"></span><br><span class="line"><span class="meta">@asyncio.coroutine</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello</span><span class="params">()</span>:</span></span><br><span class="line">    print(<span class="string">"Hello world!"</span>)</span><br><span class="line">    <span class="comment"># 异步调用asyncio.sleep(1):</span></span><br><span class="line">    r = <span class="keyword">yield</span> <span class="keyword">from</span> asyncio.sleep(<span class="number">1</span>)</span><br><span class="line">    print(<span class="string">"Hello again!"</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 获取EventLoop:</span></span><br><span class="line">loop = asyncio.get_event_loop()</span><br><span class="line"><span class="comment"># 执行coroutine</span></span><br><span class="line">loop.run_until_complete(hello())</span><br><span class="line">loop.close()</span><br></pre></td></tr></table></figure>
 <p>执行结果</p>
-<figure class="highlight erlang-repl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Hello world!</span><br><span class="line"># 等待<span class="number">1</span>秒</span><br><span class="line">Hello again!</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Hello world!</span><br><span class="line"><span class="meta">#</span><span class="bash"> 等待1秒</span></span><br><span class="line">Hello again!</span><br></pre></td></tr></table></figure>
 <p><a href="mailto:`@asyncio.coroutine" target="_blank" rel="noopener">`@asyncio.coroutine</a><code>注解表示</code>hello()`函数为一个协程函数。</p>
 <p>使用<code>asyncio.sleep()</code>可以让协程睡眠，EventLoop则会切换到其他协程继续执行达到异步效果。</p>
 <ol start="2">
@@ -714,7 +714,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">30</span>
+                  <span class="site-state-item-count">31</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>

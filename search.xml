@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[日期时间格式]]></title>
+    <url>%2F2018%2F10%2F31%2F%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%2F</url>
+    <content type="text"><![CDATA[在开发中，我们经常会遇到日期时间转换，所有的语言都遵循一个标准格式来进行转换。 日期格式在计算机里，标准的日期格式为： 格式 示例 dd/MM/yyyy 06/03/2007 dd-MMM-yyyy 06-Mar-2007 MM/dd/yyyy 03/06/2007 MMM dd, yyyy Mar 06, 2007 MMMMM dd, yyyy March 06, 2007 yyyy.MM.dd 2007.06.03 yyyy/MM/dd 2007/06/03 yyyy-MM-dd 2007-06-03 通常我们使用日期时间格式来描述一个具体的时间。 日期时间格式可以转换的标准日期时间格式如下： 格式 示例 dd-MM-yyyy HH’h’mm 06-03-2007 13h44 dd-MM-yyyy HH’h’MM’min’ 06-03-2007 13h44min dd-MMM-yyyy HH:mm 06-Mar-2007 13:44 dd/MM/yyyy HH’h’mm 06/03/2007 13h44 dd/MM/yyyy HH:mm 06/03/2007 13:44 dd/MM/yyyy hh:mm a zzz 06/03/2007 01:44 PM PST dd/MM/yyyy HH:mm zzz 06/03/2007 13:44 PST dd/MM/yyyy HH:mm:ss 06/03/2007 13:44:25 dd/MM/yyyy hh:mm:ss a zzz 06/03/2007 01:44:25 PM PST dd.MM.yyyy HH:mm:ss 06.03.2007 13:44:25 MM/dd/yyyy HH:mm 03/06/2007 13:44 MM/dd/yyyy hh:mm a zzz 03/06/2007 01:44 PM PST MM/dd/yyyy HH:mm zzz 03/06/2007 13:44 PST MM/dd/yyyy HH:mm:ss 03/06/2007 13:44:25 MM/dd/yyyy hh:mm:ss a zzz 03/06/2007 01:44:25 PM PST MMMMM dd, yyyy hh:mm a zzz March 06, 2007 01:44 PM PST yyyy-MM-dd HH.mm 2007-03-06 13.44 yyyy-MM-dd hh:mm a zzz 2007-03-06 01:44 PM PST yyyy.MM.dd hh:mm a zzz 2007.03.06 01:44 PM PST yyyy/MM/dd hh:mm a zzz 2007/03/06 01:44 PM PST yyyy/MM/dd HH:mm zzz 2007/03/06 13:44 PST 在上面的字符中，由两种字符类型来觉得输出的日期时间格式 复制字符：从创建格式化日期时间的格式字符串中复制。例如:/-: 解释字符：根据其对应的含义来解释出具体的时间格式。例如:y,M,d,H,m,z,Z…。所有从[A-Za-z]的字符都是解释字符，其他字符是复制字符。并非所有的解释字符都有对应的解析格式。 日期和时间的解释字符下面为日期的解释 字母序列 描述 示例 d 一个月中一位或两位数的日期 1 - 31 dd 一个月中两位数的日期 01 - 31 DDD 一年中三位数的日期 001 - 366 EEE 一周中缩写的日期 Mon - Sun EEEE 一周中日期的全称 Monday - Sunday M 一位或两位数的月份 1 - 12 MM 两位数的月份 01 - 12 MMM 三个字母的月份缩写 Jan - Dec MMMMM 月份的全称 January - December y 一位或两位数的年份 0 - 99 yy 两位数的年份 00 - 99 yyyy 四位数的年份 1999、2000、2010 下面为时间的解释 字母序列 描述 示例 a 表示 AM 或 PM AM 或 PM h 上午/下午 (1-12) 中一位或两位数的小时数 1 - 12 hh 上午/下午 (01-12) 中两位数的小时数 01 - 12 H 一天 (0-23) 中一位或两位数的小时数 0 - 23 HH 一天 (00-23) 中两位数的小时数 00 - 23 m 一小时中一位或两位数的分钟数 0 - 59 mm 一小时中两位数的分钟数 00 - 59 s 一分钟中一位或两位数的秒数 0 - 59 S 一位、两位或三位数的毫秒数 0 - 999 ss 一分钟中两位数的秒数 00 - 59 SSS 三位数的毫秒数 000 - 999 z 或 zzz 三个字母的时区缩写 EST、CST 等。 Z 相对于 GMT 的时区 -0500、-0600 等。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Python时间操作]]></title>
     <url>%2F2018%2F08%2F13%2Fpython%E6%97%B6%E9%97%B4%E6%93%8D%E4%BD%9C%2F</url>
     <content type="text"><![CDATA[time模块使用unix时间，时间范围为1970~2038年。建议使用datetime来操作时间。 datetime模块获取时间123t = datetime.datetime.today() # datetime.datetime(2018, 8, 13, 19, 39, 30, 780216)# 也可以用来创建一个包含日期的时间t = datetime.datetime(2018, 8, 13, 19, 39, 30, 780216) 时间戳转换timestamp12stamp = t.timestamp() #将时间转换为timestamp数字t = datetime.datetime.fromtimestamp(stamp) #将timestamp数字转换为datetime 将字符串转换为datetime格式12cday = datetime.strptime('2018-8-1 18:19:59', '%Y-%m-%d %H:%M:%S') # 将字符串转换为指定格式now.strftime('%a, %b %d %H:%M') # 将datetime转换为指定格式 格式化类型有： 1234567891011121314%Y Year with century as a decimal number.%m Month as a decimal number [01,12].%d Day of the month as a decimal number [01,31].%H Hour (24-hour clock) as a decimal number [00,23].%M Minute as a decimal number [00,59].%S Second as a decimal number [00,61].%z Time zone offset from UTC.%a Locale's abbreviated weekday name.%A Locale's full weekday name.%b Locale's abbreviated month name.%B Locale's full month name.%c Locale's appropriate date and time representation.%I Hour (12-hour clock) as a decimal number [01,12].%p Locale's equivalent of either AM or PM. 时间计算1234t = datetime.datetime.today() # 或者datetime.datetime.now()delta = datatime.datedelta(days=5) # 参数可以是days, hours, milliseconds, microsecondsprint(t+delta)print(t-delta) 时区转换转换时区得先通过utcnow()拿到当前得UTC时间 12utc_dt = datetime.utcnow().replace(tzinfo=timezone.utc) # 拿到UTC时间，并设置时区为UTC+0:00bj_dt= utc_dt.astimezon(timezone(timedelta(hours=8))) # 设置时间为北京时间]]></content>
@@ -45,9 +50,9 @@
         <category>折腾笔记</category>
       </categories>
       <tags>
+        <tag>Linux</tag>
         <tag>crontab</tag>
         <tag>crond</tag>
-        <tag>Linux</tag>
         <tag>定时任务</tag>
       </tags>
   </entry>
@@ -107,9 +112,9 @@
         <category>折腾笔记</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
         <tag>systemd</tag>
         <tag>systemctl</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -131,8 +136,8 @@
         <category>编程基础</category>
       </categories>
       <tags>
-        <tag>python</tag>
         <tag>Linux</tag>
+        <tag>python</tag>
         <tag>守护进程</tag>
         <tag>Unix</tag>
       </tags>
