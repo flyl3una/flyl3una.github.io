@@ -114,7 +114,7 @@
 
 
 
-  <meta name="keywords" content="systemd,systemctl,Linux," />
+  <meta name="keywords" content="Linux,systemd,systemctl," />
 
 
 
@@ -128,7 +128,7 @@
 
 
 <meta name="description" content="目前大量的Linux系统采用systemd作为系统启动方式。 下面介绍使用如何编写自定义systemctl服务脚本，添加自启动服务。">
-<meta name="keywords" content="systemd,systemctl,Linux">
+<meta name="keywords" content="Linux,systemd,systemctl">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux下systemctl脚本编写规则">
 <meta property="og:url" content="http://www.flyl3una.cc/2018/06/20/Linux下systemctl脚本编写规则/index.html">
@@ -560,7 +560,7 @@
 <li><p>使用该systemctl管理该脚本</p>
 </li>
 </ol>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> systemctl执行出错可以使用systemctl status myservice.service查找错误原因</span><br><span class="line">systemctl start myserver.service	# 启动myserver.service服务</span><br><span class="line">systemctl stop myserver.service		# 停止myserver.service服务</span><br><span class="line">systemctl restart myserver.service      # 重启myserver.service服务</span><br><span class="line">systemctl enable myserver.servcie	# 将该服务添加到systemd自启动列表</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> systemctl执行出错可以使用systemctl status myservice.service查找错误原因</span></span><br><span class="line">systemctl start myserver.service	# 启动myserver.service服务</span><br><span class="line">systemctl stop myserver.service		# 停止myserver.service服务</span><br><span class="line">systemctl restart myserver.service      # 重启myserver.service服务</span><br><span class="line">systemctl enable myserver.servcie	# 将该服务添加到systemd自启动列表</span><br></pre></td></tr></table></figure>
 <p>成功运行并且添加到自启动，从此万事大吉。服务多为守护进程。</p>
 <h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ul>
 <li>systemd采用CGroup来管理进程生命周期，所以服务进程可以不用进行两次fork，进程创建的所有子进程都与该服务进程同属与一个组内。</li>
@@ -612,11 +612,11 @@
       
         <div class="post-tags">
           
+            <a href="/tags/Linux/" rel="tag"><i class="fa fa-tag"></i> Linux</a>
+          
             <a href="/tags/systemd/" rel="tag"><i class="fa fa-tag"></i> systemd</a>
           
             <a href="/tags/systemctl/" rel="tag"><i class="fa fa-tag"></i> systemctl</a>
-          
-            <a href="/tags/Linux/" rel="tag"><i class="fa fa-tag"></i> Linux</a>
           
         </div>
       
@@ -727,7 +727,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">33</span>
+                  <span class="site-state-item-count">34</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -749,7 +749,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">52</span>
+                  <span class="site-state-item-count">58</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
