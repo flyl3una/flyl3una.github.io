@@ -135,7 +135,7 @@
 <meta property="og:site_name" content="L3una&#39;s Blog">
 <meta property="og:description" content="linux常用的字符匹配检测工具有grep，如果需要使用正则匹配，sed和awk也很强大。 grepgrep命令用户查找文件里符合条件的字符串。 语法1grep [-abcEFGhHilLnqrsvVwxy][-A&amp;lt;显示列数&amp;gt;][-B&amp;lt;显示列数&amp;gt;][-C&amp;lt;显示列数&amp;gt;][-d&amp;lt;进行动作&amp;gt;][-e&amp;lt;范本样式&amp;gt;][-f&amp;lt;范本文件&amp;gt;]">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-01T08:17:12.590Z">
+<meta property="og:updated_time" content="2018-12-29T07:33:22.642Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux匹配字符串操作">
 <meta name="twitter:description" content="linux常用的字符匹配检测工具有grep，如果需要使用正则匹配，sed和awk也很强大。 grepgrep命令用户查找文件里符合条件的字符串。 语法1grep [-abcEFGhHilLnqrsvVwxy][-A&amp;lt;显示列数&amp;gt;][-B&amp;lt;显示列数&amp;gt;][-C&amp;lt;显示列数&amp;gt;][-d&amp;lt;进行动作&amp;gt;][-e&amp;lt;范本样式&amp;gt;][-f&amp;lt;范本文件&amp;gt;]">
@@ -426,8 +426,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-11-01T16:17:12+08:00">
-                2018-11-01
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-29T15:33:22+08:00">
+                2018-12-29
               </time>
             
           </span>
@@ -614,7 +614,7 @@
 </tbody>
 </table>
 <p>样例</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">grep test *file	# 查找后缀有file字样的文件中包含test字符串的文件，并打印出该字符串的行</span><br><span class="line">grep -r update /etc/acpi # 以磁轨方式查找符合条件的文件。并打印出该字符串所在行的内容</span><br><span class="line">ls ./ | grep abc	#查找当前目录下文件名包含abc的文件或文件夹</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">grep test *file	# 查找后缀有file字样的文件中包含test字符串的文件，并打印出该字符串的行</span><br><span class="line">grep -r update /etc/acpi # 以递归方式查找符合条件的文件。并打印出该字符串所在行的内容</span><br><span class="line">ls ./ | grep abc	#查找当前目录下文件名包含abc的文件或文件夹</span><br></pre></td></tr></table></figure>
 <h1 id="awk"><a href="#awk" class="headerlink" title="awk"></a>awk</h1><p>awk是一种处理文本的工具。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">awk [选项参数] 'script' var=value file(s)</span><br><span class="line">awk [选项参数] -f scriptfile var=value file(s)</span><br></pre></td></tr></table></figure>
 <h2 id="参数说明"><a href="#参数说明" class="headerlink" title="参数说明"></a>参数说明</h2><table>
